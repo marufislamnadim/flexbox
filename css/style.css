@@ -1,0 +1,88 @@
+/* Import Open Sans font from Google Font */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Write your CSS Code here */
+/**************************
+Global Parameters 
+***************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+}
+ul, ul li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #6daaff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.box .card1{
+    width: 33.3%;
+    text-align: center;
+    margin: 2rem auto;
+    border-right: 0.1rem solid rgba(128, 128, 128, 0.452);
+}
+.box .card2{
+    width: 33.3%;
+    text-align: center;
+    margin: 2rem auto;
+    border-right: 0.1rem solid rgba(128, 128, 128, 0.452);
+}
+.box .card3{
+    width: 33.3%;
+    text-align: center;
+    margin: 2rem auto;
+}
+.box img{
+    width: 200px;
+    height: 160px;
+}
+.box h4, h5, h2{
+    margin: 0.5rem;
+}
+.box h5, h2{
+    color: royalblue;
+}
+button{
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: royalblue;
+    background-color: white;
+    border: 0.1rem solid rgba(65, 105, 225, 0.842);
+    border-radius: 5px;
+    transition: 500ms;
+    text-transform: uppercase;
+}
+button:hover{
+    color: white;
+    background-color: royalblue;
+}
